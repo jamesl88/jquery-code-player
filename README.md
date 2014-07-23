@@ -1,6 +1,6 @@
 ## Code player
 
-### Jquery Practice
+#### jQuery Practice
 
 Created a code player using jquery inspired by jsfiddle.net. Can run both html and css.
 
