@@ -17,7 +17,7 @@ $(".toggle").click(function() {
 
   var width=100/showingDivs;
 
-  $(".codeContainer").width(width + "%")
+  $(".codeContainer").width(width + "%");
 });
 
 $("#runButton").click(function() {
