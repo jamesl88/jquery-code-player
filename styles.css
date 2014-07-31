@@ -6,84 +6,128 @@ body {
   font-weight: 300;
 }
 
-  #menubar {
-    width:100%;
-    height:40px;
-    background-color: #E0E0E0;
-    border-bottom: 1px solid grey;
-  }
+#menubar {
+  width:100%;
+  height:40px;
+  background-color: #E0E0E0;
+  border-bottom: 1px solid grey;
+}
 
-  #logo {
-    padding:7px 0 0 20px;
-    font-size: 120%;
-    float:left;
-  }
+#logo {
+  padding:7px 0 0 20px;
+  font-size: 120%;
+  float:left;
+}
 
-  #button-div {
-    float:right;
-    padding: 5px 10px 0 0;
-  }
+.group{
+  /*height:100px;*/
+}
 
-  #runButton {
-    font-size: 120%
-  }
+#runButton {
+  margin-left: 5px
+}
 
-  #toggles {
-    width: 209px;
-    margin:0 auto;
-    list-style: none;
-    border: 1px solid grey;
-    border-radius: 3px;
-    height: 27px;
-    padding: 0;
-    position: relative;
-    top:5px;
-  }
+.navbar-nav {
+  margin-top:-1px;
+  display: inline-block;
+  float: none;
+}
 
-  #toggles li {
-    float:left;
-    border-right:1px solid grey;
-    padding:5px 7px;
-  }
+.navbar .navbar-collapse {
+  text-align: center;
+}
 
-  .clear {
-    clear:both;
-  }
+#html {
+  color:#F1672C;
+}
 
-  .codeContainer {
-    height:100%;
-    width: 50%;
-    float:left;
-    position: relative
-  }
+#css {
+  color:#30A9DC;
+}
 
-  .codeContainer textarea {
+#js {
+  color:#F1BF26;
+}
+
+#result {
+  color:#0C73B8;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
     width: 100%;
-    height: 100%;
-    border:none;
-    border-right: 1px solid grey;
-    font-family: monotype;
-    font-size:90%;
-    padding:5px;
-    box-sizing:border-box;
-  }
+}
 
-  .codeLabel {
-    padding-top:10px;
-    font-weight:bold;
-  }
+.navbar-brand {
+  float:none;
+}
 
-  #CSSContainer, #JSContainer {
-    display: none;
-  }
+#toggles {
+  text-align: center;
+}
 
-  iframe {
-    height:100%;
-    position:relative;
-    left:10px;
-    border:none;
-  }
+#toggles li {
+  position: relative;
+  display: block;
+  padding: 15px 10px 17px 10px;
+}
 
-  .selected {
-    background-color: grey
-  }
+#top-buttons {
+  text-align: center;
+}
+
+.toggle.active {
+  background-color: grey;
+}
+
+.clear {
+  clear:both;
+}
+
+.codeContainer {
+  height:100%;
+  width: 50%;
+  float:left;
+  position: relative
+}
+
+.codeContainer textarea {
+  width: 100%;
+  height: 100%;
+  border:none;
+  border-right: 1px solid grey;
+  font-family: "Lucida Console", Monaco, monospace
+  font-size:90%;
+  padding:5px;
+  box-sizing:border-box;
+}
+
+.codeLabel {
+  padding-top:10px;
+  font-weight:bold;
+}
+
+#wrapper {
+  margin-top:10px;
+}
+
+#jsCode {
+  text-align: center
+}
+
+#CSSContainer, #JSContainer {
+  display: none;
+}
+
+iframe {
+  height:100%;
+  position:relative;
+  left:10px;
+  border:none;
+}
+
+.selected {
+  /*background-color: grey;*/
+}

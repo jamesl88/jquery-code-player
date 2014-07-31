@@ -5,7 +5,7 @@ var codeContainerHeight = windowHeight - menuBarHeight;
 $(".codeContainer").height(codeContainerHeight + "px")
 
 $(".toggle").click(function() {
-  $(this).toggleClass("selected");
+  $(this).toggleClass("active");
 
   var activeDiv=$(this).html();
 
